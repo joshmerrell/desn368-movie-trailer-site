@@ -1,0 +1,61 @@
+body {
+    background: gray;
+}
+
+/* CSS Variables */
+:root {
+    /* main UI color */
+    --plyr-color-main: darkgray;
+    /* audio controls background */
+    --plyr-audio-controls-background: black;
+    /* audio controls color */
+    --plyr-audio-control-color: white;
+
+    --plyr-audio-control-color-hover:  black;
+
+    --plyr-audio-progress-buffered-background:  black;
+
+    --plyr-audio-range-track-background: white;
+    
+    --plyr-font-family: sans-serif;
+    --plyr-font-size-time: 16px;
+
+    --plyr-tooltip-background: white;
+    --plyr-tooltip-color: black; 
+
+    --plyr-control-icon-size: 16px;
+}
+
+/* Layout */
+main {
+    /* Fixed width center align */
+    max-width: 60em;
+    margin-inline: auto;
+
+    background: lightgray;
+}
+
+main img {
+    /* Fit image to container */
+    max-width: 100%;
+    display: block;
+}
+
+article {
+    /* flow content horizontally */
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    main article {
+        flex-direction: column;
+        align-items: center;
+    }
+}

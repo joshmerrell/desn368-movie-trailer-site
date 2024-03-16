@@ -23,18 +23,24 @@
     <title>Template: Single Song Promo</title>
 </head>
 <body>
-    
+
+<aside class="hacker-intro">
+  <div id="hackerterm">
+    <span id="hackertext"></span>
+    <span id="cursor"></span>
+  </div>
+  <aside id="system-failure-container" class="nodisplay">
+    <div id="system-failure">SYSTEM FAILURE</div>
+  </aside>
+
+</aside>
+
 <!--  Wrapper Container  -->
-<main>
+<main class="nodisplay">
 
   <img src="assets/placeholder.jpg" alt="Placeholder">
 
-  <h1>Title of Song</h1>
-  <h2>Artist Name</h2>
-
-  <audio crossorigin playsinline>
-    <source src="assets/song.mp3" type="audio/mp3">
-  </audio>
+  <h1 class="title">The Matrix</h1>
 
 <article>
 
@@ -68,9 +74,13 @@
   <p>libero distinctio!</p>
 </section>
 
-
-
 </article>
+
+<div
+  id="filmtrailer"
+  data-plyr-provider="youtube"
+  data-plyr-embed-id="m8e-FF8MsqU"
+></div>
 
 <footer>
   <cite>

@@ -4,6 +4,8 @@ body {
 
 /* CSS Variables */
 :root {
+    --hacker-green: #0d0;
+
     /* main UI color */
     --plyr-color-main: darkgray;
     /* audio controls background */
@@ -24,6 +26,45 @@ body {
     --plyr-tooltip-color: black; 
 
     --plyr-control-icon-size: 16px;
+}
+
+body {
+    background-color: black;
+}
+
+.nodisplay {
+    display: none!important;
+}
+
+
+.hacker-intro {
+    margin: 1em;
+    font-family: monospace;
+    color: var(--hacker-green);
+}
+
+#hackerterm {
+    float: left;
+}
+
+#system-failure-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#system-failure {
+    width: 250px;
+    border: 5px solid var(--hacker-green);
+    padding: 1em;
+    margin: auto;
+    text-align: center;
 }
 
 /* Layout */
@@ -49,6 +90,10 @@ article {
 }
 
 footer {
+    text-align: center;
+}
+
+h1 {
     text-align: center;
 }
 

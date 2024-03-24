@@ -43,7 +43,7 @@ function setupIntervals() {
 function switchToMainContent() {
     hackerIntro.remove();
     mainElem.classList.remove("nodisplay");
-    player = new Plyr("div#filmtrailer", {});
+    player = new Plyr("div#filmtrailer");
 }
 
 window.addEventListener("load", function(ev) {
@@ -54,6 +54,5 @@ window.addEventListener("load", function(ev) {
     failureScreen = document.querySelector("#system-failure-container");
     mainElem = document.querySelector("main");
     setupIntervals();
+    // switchToMainContent();
 });
-
-// Initialize Plyr

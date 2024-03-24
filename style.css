@@ -36,6 +36,10 @@ body {
     display: none!important;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .hacker-intro {
     margin: 1em;
@@ -76,10 +80,17 @@ main {
     background: lightgray;
 }
 
-main img {
+main div.poster {
     /* Fit image to container */
     max-width: 100%;
     display: block;
+    background: url(assets/xmatrix.png);
+    height: 240px;
+    background-size: cover;
+}
+
+img.rt-img {
+    height: 1.4em;
 }
 
 article {
@@ -89,12 +100,12 @@ article {
     justify-content: center;
 }
 
-footer {
+h1, h2, footer {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
+p.char-name {
+    font-weight: bold;
 }
 
 /* Media Queries */

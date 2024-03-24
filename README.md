@@ -13,4 +13,5 @@
 * [Websites dedicated to movies are an historical archive](https://www.spacejam.com/1996/jam.html). The _Space Jam_ website still works.
 
 ## Citations
-* Your citations go here
+* Rotten Tomatoes reception page: https://www.rottentomatoes.com/m/matrix
+* XMatrix screensaver, part of XScreensaver used for the falling rain image: https://www.youtube.com/watch?v=dSJQHm-YoWc&t=7s

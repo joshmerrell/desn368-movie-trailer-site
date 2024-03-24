@@ -15,3 +15,4 @@
 ## Citations
 * Rotten Tomatoes reception page: https://www.rottentomatoes.com/m/matrix
 * XMatrix screensaver, part of XScreensaver used for the falling rain image: https://www.youtube.com/watch?v=dSJQHm-YoWc&t=7s
+* Favicon generated with favicon.io: https://favicon.io/

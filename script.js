@@ -54,5 +54,5 @@ window.addEventListener("load", function(ev) {
     failureScreen = document.querySelector("#system-failure-container");
     mainElem = document.querySelector("main");
     setupIntervals();
-    // switchToMainContent();
+    // switchToMainContent(); // uncomment this and comment the above to skip intro
 });
